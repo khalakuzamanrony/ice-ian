@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff6f69</color>
+    <color name="colorPrimaryDark">#ff6f69</color>
+    <color name="colorAccent">#ff6f69</color>
+    <color name="mainBackground">#ffffff</color>
+    <color name="mainColor">#ff6f69</color>
+    <color name="toolbarColor">#ff6f69</color>
+    <color name="syllebus_color">#669900</color>
+    <color name="syllebus_color2">#add8e6</color>
+    //Dark
+    <color name="d_colorPrimary">#231f20</color>
+    <color name="d_colorPrimaryDark">#231f20</color>
+    <color name="d_colorAccent">#ff6f69</color>
+    <color name="d_mainBackground">#231f20</color>
+    <color name="d_mainColor">#ff6f69</color>
+    <color name="d_toolbarColor">#231f20</color>
+
+
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal|center_vertical">
+
+        <LinearLayout
+            android:id="@+id/demo_image_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageButton
+                android:id="@+id/closeb"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="right|top"
+                android:src="@drawable/ic_user"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/image_demo"
+                android:layout_width="250dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:scaleType="centerCrop"
+                tools:src="@drawable/gr" />
+
+            <TextView
+                android:id="@+id/demo_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="Name"
+                android:fontFamily="@font/roboto_slab"
+                android:textColor="@color/mainColor"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/shortcut_button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/demo_image_layout"
+            android:layout_centerInParent="false"
+            android:layout_marginTop="25dp"
+            android:duplicateParentState="false"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <ImageButton
+                android:id="@+id/demo_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_email" />
+
+            <ImageButton
+                android:id="@+id/demo_call"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_call" />
+
+            <ImageButton
+                android:id="@+id/demo_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_user" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

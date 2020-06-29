@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/dashboard"
+            android:icon="@drawable/ic_dashboard"
+
+            android:title="DashBoard" />
+    </group>
+    <item android:title=" ">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/nav_about"
+                    android:icon="@drawable/ic_about"
+                    android:title="About" />
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_share"
+                    android:title="Share" />
+                <item
+                    android:id="@+id/nav_rate"
+                    android:icon="@drawable/ic_rate24dp"
+                    android:title="Rate" />
+
+            </group>
+        </menu>
+    </item>
+    <item android:title="View">
+        <menu>
+            <group>
+
+
+                <item
+                    android:id="@+id/app_bar_switch"
+                    android:icon="@drawable/ic_dark"
+                    android:title="Dark Mode"
+                    app:actionLayout="@layout/switch_item"
+                    app:showAsAction="always" />
+            </group>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,146 @@
+<resources>
+
+    <!-- Base/Day theme application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="mainBackground">@color/mainBackground</item>
+        <item name="mainColor">@color/mainColor</item>
+        <item name="toolbarColor">@color/mainColor</item>
+    </style>
+
+    <!-- Night theme application theme. -->
+    <style name="AppTheme.Night" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/d_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/d_colorPrimaryDark</item>
+        <item name="colorAccent">@color/d_colorAccent</item>
+        <item name="mainBackground">@color/d_mainBackground</item>
+        <item name="mainColor">@color/d_mainColor</item>
+        <item name="toolbarColor">@color/d_toolbarColor</item>
+    </style>
+
+    //Card
+
+    <style name="card_imageview">
+        <item name="android:layout_width">64dp</item>
+        <item name="android:layout_height">64dp</item>
+        <item name="android:layout_centerInParent">false</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+
+    </style>
+
+    <style name="card_textview">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textColor">?attr/mainColor</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="card_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="cardCornerRadius">15dp</item>
+        <item name="cardElevation">5dp</item>
+
+
+    </style>
+
+
+    <style name="AppTheme.Night.NoActionBar">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+    <style name="AppTheme.Night.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.Night.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="ADBStyle" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/colorAccent</item>
+    </style>
+
+    <style name="about_ice_title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:fontFamily">@font/roboto_slab</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:textColor">?attr/mainColor</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="background">?attr/mainBackground</item>
+        <item name="fontFamily">@font/roboto_slab</item>
+    </style>
+
+    <style name="about_ice_dropDown">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentTop">false</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentBottom">false</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:layout_marginEnd">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:background">@android:color/transparent</item>
+
+    </style>
+
+    <style name="about_ice_nestSC">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fillViewport">true</item>
+        <item name="android:visibility">visible</item>
+    </style>
+
+    <style name="about_ice_nest_TV">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:fontFamily">@font/roboto_slab</item>
+        <item name="android:justificationMode">inter_word</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textColor">@color/syllebus_color</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:visibility">visible</item>
+        <item name="background">?attr/mainBackground</item>
+    </style>
+
+    <style name="about_ice_card">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="cardElevation">3dp</item>
+        <item name="cardCornerRadius">15dp</item>
+        <item name="background">?attr/mainBackground</item>
+    </style>
+
+    <style name="rl_style">
+        <item name="android:background">@drawable/ice_about_card_bg</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>

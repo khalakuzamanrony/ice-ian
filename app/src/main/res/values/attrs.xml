@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="custom">
+        <attr name="colorPrimary" format="color" />
+        <attr name="colorPrimaryDark" format="color" />
+        <attr name="colorAccent" format="color" />
+        <attr name="mainColor" format="color" />
+        <attr name="mainBackground" format="color" />
+        <attr name="toolbarColor" format="color" />
+
+    </declare-styleable>
+</resources>

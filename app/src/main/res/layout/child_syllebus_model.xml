@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/mainBackground"
+    android:orientation="horizontal"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/mainBackground"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/syllebus_bg"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/course_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                android:textColor="@color/syllebus_color"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                tools:text="Digital Electronics" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/course_code"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="7dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/syllebus_color"
+                    android:textSize="14sp"
+                    android:textStyle="italic"
+                    tools:text="ICE 1111" />
+
+                <TextView
+                    android:id="@+id/course_credit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="7dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/syllebus_color"
+                    android:textSize="14sp"
+                    android:textStyle="italic"
+                    tools:text="Credit : 3" />
+
+                <TextView
+                    android:id="@+id/course_marks"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="7dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/syllebus_color"
+                    android:textSize="14sp"
+                    android:textStyle="italic"
+                    tools:text="Marks : 100" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

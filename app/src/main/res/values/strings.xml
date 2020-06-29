@@ -1,0 +1,264 @@
+<resources>
+    <string name="app_name">ICE_Book</string>
+    <string name="open">Open Drawer</string>
+    <string name="close">Close Drawer</string>
+
+    <string-array name="faculty">
+        <item>DR. RUBAIYAT YASMIN </item>
+        <item>DR. DIPANKAR DAS </item>
+        <item>DR. AURANGZIB MD. ABDUR RAHMAN </item>
+        <item>DR. MD. EMDADUL HAQUE </item>
+        <item>DR. MIRZA A. F. M. RASHIDUL HASAN</item>
+        <item>DR. FIROZ AHMED</item>
+        <item>HALIDA HOMYARA</item>
+        <item>MD. NUR - AL - SAFA BHUIYAN </item>
+        <item>MUHAMMAD SAJJADUR RAHIM </item>
+        <item>SABBIR AHMED </item>
+        <item>Md. Hasnat Kabir </item>
+        <item>MD. REAZ HOSSAIN </item>
+        <item>FARHANA ENAM</item>
+        <item>LAILA NAZNIN</item>
+        <item>MUSTARI ZAMAN</item>
+        <item>MD. GOLAM RASHED</item>
+        <item>MOUSUMI HAQUE </item>
+        <item>MD. RIAZ UDDIN MONDAL</item>
+        <item>FOEZ AHMED</item>
+        <item>MD. ASHRAFUL ISLAM </item>
+        <item>MD. MATIQUL ISLAM </item>
+        <item>MD. FIROZ AHMED </item>
+    </string-array>
+    <string-array name="designation">
+        <item>PROFESSOR</item>
+        <item>PROFESSOR</item>
+        <item>PROFESSOR</item>
+        <item>PROFESSOR &amp; CHAIRMAN</item>
+        <item>PROFESSOR</item>
+        <item>PROFESSOR</item>
+        <item>PROFESSOR</item>
+        <item>ASSOCIATE PROFESSOR</item>
+        <item>ASSOCIATE PROFESSOR</item>
+        <item>ASSOCIATE PROFESSOR</item>
+        <item>ASSOCIATE PROFESSOR</item>
+        <item>ASSOCIATE PROFESSOR</item>
+        <item>ASSOCIATE PROFESSOR</item>
+        <item>ASSOCIATE PROFESSOR</item>
+        <item>ASSOCIATE PROFESSOR</item>
+        <item>ASSOCIATE PROFESSOR</item>
+        <item>ASSOCIATE PROFESSOR</item>
+        <item>ASSISTANT PROFESSOR</item>
+        <item>ASSISTANT PROFESSOR</item>
+        <item>ASSISTANT PROFESSOR</item>
+        <item>ASSISTANT PROFESSOR</item>
+        <item>ASSISTANT PROFESSOR</item>
+    </string-array>
+    <string-array name="degree">
+        <item>Doctoral(PhD) Saitama University, Japan 2011\n\nMasters(M.Sc.) Waseda University, Japan 2005\n\nMasters(M.Sc.) Rajshahi University 2000\n\nBachelor\'Honors(B.Sc.) Rajshahi University1996</item>
+        <item>Doctoral(PhD)	Saitama University 2010\n\nMasters(M.Sc.)	Rajshahi University 1997\n\nBachelor/Honors(B.Sc.)	Rajshahi University1996\n\nHigher Secondary(H.S.C) Satkhira Government Colleage 1992\n\nSecondary(S.S.C) Islamkati P.N. High School 1990</item>
+        <item>Doctoral(Doctor of Phylosophy) Kochi University of Technology, Japan 2009\n\nMasters(Master of Science) Rajshahi University 1993\n\nBachelor/Honors(B.Sc. (Honor\'s)) Rajshahi University 1992\n\nHigher Secondary(Higher Secondary Certificate)	Rajshahi College 1989\n\nSecondary(Seconday School Certificate) Naogaon K. D. Government High School 1987</item>
+        <item>Doctoral(PhD) Tokyo Institute of Technology 2011\n\nMasters(M. Sc)	Bangladesh University of Engineering and Technology 2002</item>
+        <item>Doctoral(D.Engg.) Saitama University, Japan 2012\n\nDoctoral(Ph.D) Islamic University, Bangladesh 2009\n\nMasters(M.Phil.) University of Rajshahi, Bangladesh 2001\n\nMasters(M.Sc) University of Rajshahi, Bangladesh 1993\n\nBachelor/Honors(B.Sc(Honours)) University of Rajshahi, Bangladesh 1992</item>
+        <item>Doctoral(PhD in Information Technoly) University of Ulsan, Ulsan, South Korea 2012\n\nMasters(M.S. in Computer Science) University of Madras, Chennai, Tamil Nadu, India 2002\n\nBachelor/Honors(B.Sc. In Computer Science) Andhra University, Visakhapatnam, Andhra Pradesh, India 2000\n\nHigher Secondary(HSC) Rajshahi Education Board, Rajshahi 1995\n\nSecondary(Secdondary School Certificate) Rajshahi Education Board, Rajshahi, Bangladesh 1993</item>
+        <item>Doctoral(Doctor of Engineering) Result not Found 2004\n\nMasters(Master of Science) Rajshahi University 1995\n\nBachelor/Honors(B.Sc. (Honor\'s)) Rajshahi University 1994\n\nHigher Secondary(H.S.C) Rajshahi Govt. College 1991\n\nSecondary(S.S.C) Govt P.N. Girls High School 1989</item>
+        <item>Not Provided</item>
+        <item>Masters(M. Engineering) Ritsumeikan University, Japan 2006\n\nBachelor/Honors(B. Sc. in EEE) Bangladesh University of Engineering &amp; Tech. 1999\n\nHigher Secondary(HSC) Rajshahi College 1992\n\nSecondary(SSC) Rajshahi University School 1990</item>
+        <item>Not Provided</item>
+        <item>M.Sc. (Raj),\n\nDoctoral(PhD)Kochi University of Technology, Japan 2007</item>
+        <item>Masters(M.Sc.) Rajshahi University 2000\n\nBachelor/Honors(B.Sc.) Rajshahi University 1998\n\nHigher Secondary(H.S.C.) Govt. Science College, Dhaka 1994\n\nSecondary(S.S.C.) Govt. Science College, Dhaka 1992</item>
+        <item>Masters(M.Sc.) Rajshahi University 2000\n\nBachelor/Honors(B.Sc.) Rajshahi University 1999\n\nHigher Secondary(H.S.C) Rajshahi College 1996\n\nSecondary(S.S.C) Govt. P.N. Girls High School 1994</item>
+        <item>Masters(M.Sc.) Rajshahi University 2000\n\nBachelor/Honors(B.Sc.) Rajshahi University 1998\n\nHigher Secondary(H.S.C.) Rajshahi College 1995\n\nSecondary(S.S.C.) Govt. P.N. Girles High School, Rajshahi 1993</item>
+        <item>M.Sc (RU),\n\nM.Phil (BUET, Dhaka)</item>
+        <item>Doctoral(PhD in Information and Computer Sciences) Saitama University 2016\n\nMasters(M.Sc. in Information and Communication Engineering) Rajshahi University 2009\n\nBachelor/Honors(B.Sc. in Information and Communication Engineering) Rajshahi University 2008\n\nHigher Secondary(Higher Secondary School Certificate (H.S.C)) Rajshahi Education Board 2002\n\nSecondary(Secondary School Certificate (S.S.C)) Rajshahi Education Board 2000</item>
+        <item>Doctoral(D.Engg.) Saitama University 2019\n\nMasters(M.Sc.) Rajshahi University 2009\n\nBachelor/Honors(B.Sc.) Rajshahi University 2008</item>
+        <item>Not Provided</item>
+        <item>Masters(M.Engg.)South China University of Technology, China2013\n\nMasters(M.Sc.)University of Rajshahi, Bangladesh2009\n\nBachelor/Honors(B.Sc.)University of Rajshahi, Bangladesh2007</item>
+        <item>Masters(M.Sc) Rajshahi University 2010\n\nBachelor/Honors(B.Sc) Rajshahi University 2008\n\nHigher Secondary(HSC) Chuadanga Govt. College 2001\n\nSecondary(SSC) Chuadanga V.J. Govt. High School 1999</item>
+        <item>B.Sc(Raj),\n\nM.Sc(Raj)</item>
+        <item>B.Sc.(Hon\'s),\n\nMasters(M.Sc (Thesis)) Department of Applied Physics &amp; Electronic Engineering 2009</item>
+    </string-array>
+    <string-array name="email">
+        <item>sheba@ru.ac.bd</item>
+        <item>dipankar@ru.ac.bd</item>
+        <item>amar_ice@ru.ac.bd</item>
+        <item>haque-ice@ru.ac.bd</item>
+        <item>mirza_ice@ru.ac.bd</item>
+        <item>fahmed@ru.ac.bd</item>
+        <item>halida_ice@ru.ac.bd</item>
+        <item>safa@ru.ac.bd</item>
+        <item>sajid_ice@ru.ac.bd</item>
+        <item>sabbir@ru.ac.bd</item>
+        <item>hasnatkabir@yahoo.com</item>
+        <item>reaz_ice@ru.ac.bd</item>
+        <item>fenam@ru.ac.bd</item>
+        <item>lipy_ice@ru.ac.bd</item>
+        <item>mustari.zaman@ru.ac.bd</item>
+        <item>golamrashed@ru.ac.bd</item>
+        <item>mishiape@ru.ac.bd</item>
+        <item>riaz_uddin_ru@yahoo.com</item>
+        <item>foez28@ru.ac.bd</item>
+        <item>ras_ice@ru.ac.bd</item>
+        <item>matiqul@ru.ac.bd</item>
+        <item>firozice01@ru.ac.bd</item>
+    </string-array>
+    <string-array name="faculty_phone">
+        <item>01759021976</item>
+        <item>01754616266</item>
+        <item>01711946384</item>
+        <item>01199231749</item>
+        <item>01715249842</item>
+        <item>01711065595</item>
+        <item>01727640093</item>
+        <item>01764770050</item>
+        <item>01721516550</item>
+        <item>01731500601</item>
+        <item>01717670160</item>
+        <item>01724612827</item>
+        <item>01727712518</item>
+        <item>01783942741</item>
+        <item>01718541818</item>
+        <item>01717515008</item>
+        <item>01740074467</item>
+        <item>0721750148</item>
+        <item>01718276108</item>
+        <item>01714079459</item>
+        <item>01716333208</item>
+        <item>01718677929</item>
+    </string-array>
+    <string name="title_activity_faculty_details">FacultyDetailsActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="DeptName">Information and Communication Engineering\n\nUniversity of Rajshahi</string>
+    <string name="ice_history">The Department of Information and Communication Engineering was founded in 2000.
+        The founder chairman of the department was Professor Dr. Md. Mozaffor Hossain. During the 16 years after its foundation, the departmental teaching staffs are
+        making their enthusiastic efforts to provide quality based education and develop professional skills of the undergraduate/postgraduate students with highly
+        sophisticated Communications and Digital Electronics based scientific equipments. Along with quality teaching,
+        department has expanded its research activities towards various fields of Information and Communication Engineering.
+        Right now there are 10 Doctorate degree holder Faculty members in the department and they are producing world class research
+        publications and strengthening the research activities in the department.\n\n\n\n\n\nThe aim of this department is to produce quality human resource that can cater to the current and future need of info-com oriented industry and academia.
+        The academic focus of this department lies on the intersection of electrical, computer and communication engineering. It is our great pleasure to announce
+        that the Department of Information and Communication Engineering (ICE) has introduced newly
+        designed B.Sc Engineering courses starting from 2011 and M.Sc/M Engineering courses starting from session 2014-2015.\n\n\n\n\n\nWith extensive development in IT sectors under materialization of Digital Bangladesh, the students with B.Sc/M.Sc/M Engineering
+        degrees from this department are getting jobs in various organizations (Private/Public Universities, Vendors/Mobile operators,
+        Software development/Computer Network installation Farms, Banks and other Telecommunication sectors).
+    </string>
+
+    <string-array name="prev_chair">
+        <item>Professor Dr. M. Mozaffor Hossain</item>
+        <item>Aurangzib Md. Abdur Rahman</item>
+        <item>Aurangzib Md. Abdur Rahman</item>
+        <item>Rubaiyat Yasmin</item>
+        <item>Dipankar Das(Acting)</item>
+        <item>Rubaiyat Yasmin</item>
+        <item>Muhammad Sajjadur Rahim</item>
+        <item>Professor Dr. Shaikh Enayet Ullah</item>
+        <item>Dr. Md. Nur-Al-Safa Bhuiyan</item>
+        <item>Dr. S. M. Kamruzzaman (Acting)</item>
+        <item>Dr. Md. Nur-Al-Safa Bhuiyan</item>
+        <item>Professor Dr. Abu Zafor Muhammad Touhidul Islam</item>
+        <item>Professor Dr. Dipankar Das</item>
+        <item>Professor Md. Emdadul Haque, PhD</item>
+    </string-array>
+    <string-array name="from">
+        <item>24.09.2000</item>
+        <item>24.09.2003</item>
+        <item>04.09.2005</item>
+        <item>16.03.2006</item>
+        <item>20.12.2006</item>
+        <item>19.04.2007</item>
+        <item>19.08.2008</item>
+        <item>10.01.2009</item>
+        <item>06.01.2012</item>
+        <item>02.05.2012</item>
+        <item>30.06.2012</item>
+        <item>06.01.2015</item>
+        <item>28.04.2019</item>
+        <item>28.04.2019</item>
+    </string-array>
+    <string-array name="to">
+        <item>23.09.2003</item>
+        <item>03.09.2005</item>
+        <item>15.03.2006</item>
+        <item>19.12.2006</item>
+        <item>18.04.2007</item>
+        <item>18.08.2008</item>
+        <item>09.01.2009</item>
+        <item>05.01.2012</item>
+        <item>01.05.2012</item>
+        <item>29.06.2012</item>
+        <item>05.01.2015</item>
+        <item>27.04.2016</item>
+        <item>27.04.2019</item>
+        <item>Present</item>
+    </string-array>
+    <string name="programs_offered">
+        Program Offered by the Department of Information and Communication Engineering are:\n\n
+        \t\tFour Years B.Sc. (Engg.) Program\n
+        \t\tOne and Half  Years M.Sc. (Engg.) Program\n
+        \t\tOne and Half Years M. (Engg.) Program\n
+        \t\tTwo Years (Minimum) M.Phil. Research Program\n
+        \t\tThree Years (Minimum) Ph.D. Research Program\n
+
+    </string>
+    <string name="lab">
+
+        \t\t01. Electronics Lab\n
+        \t\t02. Programming Lab\n
+        \t\t03. Signal processing Lab\n
+        \t\t04. Digital Communication Lab\n
+        \t\t05. Analog Communication Lab\n
+        \t\t06. Microprocessor Lab\n
+        \t\t07. Wireless Communication Lab\n
+        \t\t08. Optical Fiber Communication Lab\n
+        \t\t09. Database Programming Lab\n
+        \t\t10. Networking Lab\n
+        \t\t11. Multimedia Communication Lab\n
+        \t\t12. Software Engineering Lab\n
+    </string>
+    <string name="rg">
+        01. Wireless and Optical Communications Research Group\n
+            \t\tGroup Members:\n
+            \t\t\ti. Dr. Rubaiyat Yeasmin\n
+            \t\t\tii. Dr. Nur-Al-Safa Bhuiya\n
+            \t\t\tiii. Dr. Md. Emdadul Haque\n
+            \t\t\tiv. Dr. Sabbir Ahmed\n
+            \t\t\tv. Dr. A.F.M. Rashidul Hasan\n
+            \t\t\tvi. Farhana Enam\n
+            \t\t\tvii. Dr. Md. Golam Rashed\n\n\n
+        02. Signal and Image Processing Research Group\n
+            \t\tGroup members:\n
+            \t\t\ti. Dr. Rubaiyat Yeasmin\n
+            \t\t\tii. Dr. A.F.M. Rashidul Hasan\n
+            \t\t\tiii. Dr. Halida Homyara\n\n\n
+
+        03. Ubiquitous Computing Research Group\n
+            \t\tGroup members:\n
+            \t\t\ti. Dr. Firoz Ahmed\n\n
+
+
+        04. Bioinformatics Research Group\n
+            \t\tGroup members:\n
+            \t\t\ti. Md. Reaz Hossain\n\n
+
+        05. Antenna and Microwaves Research Group\n
+            \t\tGroup members:\n
+            \t\t\ti. Foez Ahmed\n
+            \t\t\tii. Md. Ashraful Islam\n
+            \t\t\tiii. Md. Matiqul Islam\n
+            \t\t\tiv. Md. Firoz Ahmed\n\n
+
+        06. Computer Vision Research Group\n
+            \t\tGroup Members:\n
+            \t\t\ti. Dr. Dipankar Das\n
+            \t\t\tii. Dr. Md. Golam Rashed\n
+
+    </string>
+    <string name="contact">
+        \t\tDepartment of Information and Communication Engineering\n
+        \t\tEast Block, 4th Science Building\n
+        \t\tUniversity of Rajshahi\n
+       \t\tRajshahi 6205, Bangladesh.\n
+        \t\tTel: +880 721 711100\n
+        \t\tFax: +880 721 750064, 711131\n
+        \t\tE-mail: ice@ru.ac.bd\n
+        \t\tURL: www.ru.ac.bd/ice\n
+    </string>
+    <string name="ice_full"><![CDATA[Information &\nCommunication\nEngineering]]></string>
+</resources>

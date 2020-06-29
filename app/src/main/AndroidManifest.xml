@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ice_info">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".About.AboutActivity"></activity>
+        <activity android:name=".Links.MyWebView" />
+        <activity android:name=".pastChair.PastChairActivity" />
+        <activity
+            android:name=".Faculty.FacultyDetailsActivity"
+            android:label="@string/title_activity_faculty_details" />
+        <activity android:name=".Syllebus.SyllebusActivity" />
+        <activity android:name=".Stuff.StuffActivity" />
+        <activity android:name=".About_ICE.AboutICE_Activity" />
+        <activity android:name=".Links.LinksActivity" />
+        <activity android:name=".Faculty.FacultyActivity" />
+        <activity android:name=".DashBoard.DashBoardActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

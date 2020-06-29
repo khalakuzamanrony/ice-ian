@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/mainBackground"
+    android:orientation="vertical"
+    tools:context=".About_ICE.AboutICE_Activity">
+
+    <include layout="@layout/my_toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView style="@style/about_ice_card">
+
+                <RelativeLayout
+                    android:id="@+id/ron"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ice_about_card_bg">
+
+                    <RelativeLayout
+                        android:id="@+id/history_rl"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/history_title"
+                            style="@style/about_ice_title"
+                            android:text="History of ICE Department" />
+
+                        <ImageButton
+                            android:id="@+id/history_ib"
+                            style="@style/about_ice_dropDown"
+                            android:src="@drawable/ic_arrow_drop_down" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/history_ll"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/history_rl"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/history_text"
+                            style="@style/about_ice_nest_TV"
+                            android:text="@string/ice_history"
+                            android:visibility="visible"
+                            app:lineHeight="30dp" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv"
+                style="@style/about_ice_card">
+
+                <RelativeLayout
+                    android:id="@+id/xx"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ice_about_card_bg">
+
+                    <RelativeLayout
+                        android:id="@+id/programs_title_lt"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/program_offered"
+                            style="@style/about_ice_title"
+                            android:text="Program Offered" />
+
+                        <ImageButton
+                            android:id="@+id/program_ib"
+                            style="@style/about_ice_dropDown"
+                            android:src="@drawable/ic_arrow_drop_down" />
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/program_ll"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/programs_title_lt"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/programs"
+                            style="@style/about_ice_nest_TV"
+                            android:text="@string/programs_offered"
+                            android:visibility="visible"
+                            app:lineHeight="30dp" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView style="@style/about_ice_card">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ice_about_card_bg">
+
+                    <RelativeLayout
+                        android:id="@+id/lab_title_lt"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/lab"
+                            style="@style/about_ice_title"
+                            android:text="Lab" />
+
+                        <ImageButton
+                            android:id="@+id/lab_ib"
+                            style="@style/about_ice_dropDown"
+                            android:src="@drawable/ic_arrow_drop_down" />
+
+                    </RelativeLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/lab_ll"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/lab_title_lt"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/lab_body"
+                            style="@style/about_ice_nest_TV"
+                            android:text="@string/lab"
+                            android:visibility="visible"
+                            app:lineHeight="30dp" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView style="@style/about_ice_card">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ice_about_card_bg">
+
+                    <RelativeLayout
+                        android:id="@+id/rg_title_lt"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/rg"
+                            style="@style/about_ice_title"
+                            android:text="Research Group" />
+
+                        <ImageButton
+                            android:id="@+id/rg_ib"
+                            style="@style/about_ice_dropDown"
+                            android:src="@drawable/ic_arrow_drop_down" />
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/rg_ll"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/rg_title_lt"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/rg_body"
+                            style="@style/about_ice_nest_TV"
+                            android:text="@string/rg"
+                            android:visibility="visible"
+                            app:lineHeight="30dp" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView style="@style/about_ice_card">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ice_about_card_bg">
+
+                    <RelativeLayout
+                        android:id="@+id/contact_title_lt"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/contact"
+                            style="@style/about_ice_title"
+                            android:text="Contact" />
+
+                        <ImageButton
+                            android:id="@+id/contact_ib"
+                            style="@style/about_ice_dropDown"
+                            android:src="@drawable/ic_arrow_drop_down" />
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/contact_ll"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/contact_title_lt"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/contact_body"
+                            style="@style/about_ice_nest_TV"
+                            android:text="@string/contact"
+                            android:visibility="visible"
+                            app:lineHeight="30dp" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
